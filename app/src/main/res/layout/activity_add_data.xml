@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F5FF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddData">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="Add Data"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginBottom="12dp"
+        android:background="#fafafa"
+        android:elevation="4dp"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="18dp"
+        android:paddingStart="16dp" />
+
+
+    <EditText
+        android:id="@+id/edReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:background="#fafafa"
+        android:elevation="4dp"
+        android:hint="Enter Reason"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="18dp"
+        android:paddingStart="16dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:paddingVertical="14dp"
+        android:text="Insert Data"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
